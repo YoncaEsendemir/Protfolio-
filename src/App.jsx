@@ -1,12 +1,11 @@
+import "./index.css";
+import LoadingScreen from "./components/LoadingScreen";  // Süslü parantez yok!
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-
-    </>
-  )
+  return <>
+  <LoadingScreen />
+  </>
 }
 
-export default App
+export default App;
