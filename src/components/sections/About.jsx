@@ -1,5 +1,6 @@
 
 import React from 'react'
+import RevealOnScroll from '../RevealOnScroll'
 
 function About() {
     const frontendSkills=[
@@ -13,6 +14,7 @@ function About() {
         "MySQL","PostgreSQL"
     ]
   return (
+    <RevealOnScroll>
     <section id="about" className='min-h-screen flex flex-col items-center justify-center py-20'>
 
         <div className='max-w-3xl mx-auto px-4'>
@@ -61,7 +63,6 @@ function About() {
                 )  }
               </div>
             </div>
-
 
             <div className='rounded-xl p-6 hover:-translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4'>SQL Skills</h3>
@@ -119,6 +120,7 @@ function About() {
         </div>
      </div>
     </section>
+    </RevealOnScroll>
   )
 }
 

@@ -1,6 +1,8 @@
+import RevealOnScroll from '../RevealOnScroll'
 
 const Home = () => {
     return (
+         <RevealOnScroll>
         <section
             id="home" className="min-h-screen flex items-center justify-center relative">
             <div className="text-center z-10 px-4">
@@ -22,6 +24,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        </RevealOnScroll>
     )
 }
 
